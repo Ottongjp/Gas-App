@@ -1,11 +1,41 @@
 /* styles.css */
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f5f0; /* Off-white */
-    color: #333;
+    background-image: url(Flame\ on\ swirl.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+/*navbar-brand img {
+    max-width: 5%;
+    max-height: 5%; */
+
+@media screen and (min-width:992px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
+ }
+    
+.navbar .navbar-nav .nav-link {
+    color: #11222c;
+    font-size: 2em;
+
+}
+
+.navbar .navbar-nav {
+    margin-top: 5em;
+
 }
 
 .hidden {
@@ -18,7 +48,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: linear-gradient(orange, #ccc); /* Bright orange and grey */
+    /*background: linear-gradient(orange, #ccc); /* Bright orange and grey */
     color: white;
     text-align: center;
 }
